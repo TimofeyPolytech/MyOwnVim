@@ -1,0 +1,46 @@
+EDITOR MODE:
+RIGHT Move the course to the right by 1 position
+LEFT Move cursor to the right by 1 position
+UP Move cursor up 1 line
+DOWN Moves the cursor down 1 line
+^ (or 0) Move cursor to beginning of line
+$ Move cursor to end of line
+w Move the cursor to the end of the word to the right of the cursor
+b Move the cursor to the beginning of the word to the left of the cursor
+gg Move to the beginning of the file
+G Move to the end of the file
+NG Move to line number N
+PG_UP Move one screen up
+PG_DOWN Move one screen down
+x Delete character after course
+diw Delete the word under the cursor, including the space to the right
+dd Cut the current line
+y Copy current line
+yw Copy word under cursor
+p Insert after cursor
+
+COMMAND MODE:
+o filename Open file filename
+x Write to current file and exit
+w Write to current file
+w filename Write to filename
+q Exit. If the file has been changed, then the exit is possible only with q!
+q! Exit without saving
+wq! Write to current file and exit
+number Jump to line number
+h Display command help
+
+INPUT MODE
+i Enter text in front of the cursor
+I Move to the beginning of the line and start typing
+A Move to the end of the line and start typing
+S Delete the contents of the line and start typing
+r Replace one character under the cursor
+
+SEARCH MODE
+/ text <CR> Search for the string text from the cursor to the end of the file. If the line is found, move the cursor to the beginning of the line
+? text <CR> Searches for the string text from the cursor to the beginning of the file. If the line is found, move the cursor to the beginning of the line.
+n Search again
+N Repeat search backward
+
+Esc Close this window
